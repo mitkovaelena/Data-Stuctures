@@ -13,10 +13,10 @@ public class ReversedList<T> implements Iterable<T> {
     }
 
     public T get(int ind) {
-        if (ind < 0 || ind > this.count) {
+        if (ind < 0 || ind > this.count()) {
             throw new ArrayIndexOutOfBoundsException();
         }
-        return this.items[this.count - ind - 1];
+        return this.items[this.count() - ind - 1];
     }
 
     public int count() {
@@ -28,21 +28,21 @@ public class ReversedList<T> implements Iterable<T> {
     }
 
     public void add(T element) {
-        if (this.count == this.items.length) {
+        if (this.count() == this.items.length) {
             this.resize();
         }
         this.items[this.count++] = element;
     }
 
     public T removeAt(int ind) {
-        if (ind < 0 || ind > this.count) {
+        if (ind < 0 || ind > this.count()) {
             throw new ArrayIndexOutOfBoundsException();
         }
-        T element = this.items[count - ind - 1];
+        T element = this.items[count() - ind - 1];
         this.count--;
-        this.shift(count - ind);
+        this.shift(count() - ind);
 
-        if (this.count == this.items.length / 4) {
+        if (this.count() == this.items.length / 4) {
             this.shrink();
         }
         return element;
@@ -51,7 +51,7 @@ public class ReversedList<T> implements Iterable<T> {
     private void shrink() {
         T[] copy = (T[]) new Object[this.items.length / 2];
 
-        for (int i = 0; i < this.count; i++) {
+        for (int i = 0; i < this.count(); i++) {
             copy[i] = this.items[i];
         }
 
@@ -60,16 +60,16 @@ public class ReversedList<T> implements Iterable<T> {
     }
 
     private void shift(int ind) {
-        for (int i = ind; i < this.count; i++) {
+        for (int i = ind; i < this.count(); i++) {
             this.items[i] = this.items[i + 1];
         }
-        this.items[this.count] = null;
+        this.items[this.count()] = null;
     }
 
     private void resize() {
         T[] copy = (T[]) new Object[this.items.length * 2];
 
-        for (int i = 0; i < this.count; i++) {
+        for (int i = 0; i < this.count(); i++) {
             copy[i] = this.items[i];
         }
 

@@ -52,12 +52,12 @@ public class DoublyLinkedList<E> implements Iterable<E> {
         this.head = new Node(element);
         this.head.setNext(oldHead);
 
-        if(this.size() == 0){
+        if (this.size() == 0) {
             this.tail = head;
         } else {
             oldHead.setPrev(this.head);
         }
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public void addLast(E element) {
@@ -65,25 +65,25 @@ public class DoublyLinkedList<E> implements Iterable<E> {
         this.tail = new Node(element);
         this.tail.setPrev(oldTail);
 
-        if(this.size() == 0){
+        if (this.size() == 0) {
             this.head = tail;
         } else {
             oldTail.setNext(this.tail);
         }
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public E removeFirst() {
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new IllegalArgumentException();
         }
 
         Node oldHead = this.head;
         this.head = this.head.getNext();
 
-        size--;
+        this.setSize(this.size() - 1);
 
-        if (this.size() == 0){
+        if (this.size() == 0) {
             this.tail = null;
         } else {
             this.head.setPrev(null);
@@ -93,12 +93,12 @@ public class DoublyLinkedList<E> implements Iterable<E> {
     }
 
     public E removeLast() {
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new IllegalArgumentException();
         }
         Node oldTail = this.tail;
 
-        if (this.size() == 1){
+        if (this.size() == 1) {
             this.head = null;
             this.tail = null;
         } else {
@@ -107,14 +107,14 @@ public class DoublyLinkedList<E> implements Iterable<E> {
             this.tail = newTail;
         }
 
-        this.size--;
+        this.setSize(this.size() - 1);
         return oldTail.getValue();
     }
 
     private Node GetSecondToLastNode() {
         Node current = this.head;
 
-        while (current.getNext() != this.tail){
+        while (current.getNext() != this.tail) {
             current = current.getNext();
         }
 
@@ -126,20 +126,20 @@ public class DoublyLinkedList<E> implements Iterable<E> {
         return new ListIterator();
     }
 
-    private final class ListIterator implements Iterator<E>{
+    private final class ListIterator implements Iterator<E> {
         private Node current;
 
-        private ListIterator(){
+        private ListIterator() {
             this.current = head;
         }
 
         @Override
-        public boolean hasNext(){
+        public boolean hasNext() {
             return this.current != null;
         }
 
         @Override
-        public E next(){
+        public E next() {
             E returnValue = this.current.getValue();
             this.current = this.current.getNext();
             return returnValue;
@@ -166,5 +166,4 @@ public class DoublyLinkedList<E> implements Iterable<E> {
             current = current.getNext();
         }
     }
-
 }
