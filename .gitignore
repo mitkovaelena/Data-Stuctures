@@ -4,5 +4,10 @@ bin
 out
 .idea
 *.iml
-.docx
-.pptx
+*.pptx
+*.docx
+*.sln
+*.cs
+01.LinearDS/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.csproj
+*.zip
+01.LinearDS/ConsoleApplication1/ConsoleApplication1/App.config
