@@ -11,7 +11,7 @@ public class SortWords {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         List<String> words = Arrays.asList(reader.readLine().split(" "));
-        words.sort((a,b) -> a.compareTo(b));
-        words.forEach( word -> System.out.print(word + " "));
+        words.sort(String::compareTo);
+        words.forEach(word -> System.out.print(word + " "));
     }
 }

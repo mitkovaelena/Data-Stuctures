@@ -13,10 +13,10 @@ public class LongestSubsequence {
         int count = 1;
         int elem = intArr[0];
 
-        for (int i = 0; i < intArr.length-1; i++) {
-            if (intArr[i] == intArr[i+1] ){
+        for (int i = 0; i < intArr.length - 1; i++) {
+            if (intArr[i] == intArr[i + 1]) {
                 count++;
-                if (count > maxLen){
+                if (count > maxLen) {
                     maxLen = count;
                     elem = intArr[i];
                 }
@@ -26,7 +26,7 @@ public class LongestSubsequence {
         }
 
         for (int i = 0; i < maxLen; i++) {
-            System.out.print(elem + " " );
+            System.out.print(elem + " ");
         }
     }
 }

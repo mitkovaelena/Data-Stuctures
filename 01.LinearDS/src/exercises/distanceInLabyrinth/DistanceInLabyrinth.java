@@ -40,9 +40,9 @@ public class DistanceInLabyrinth {
             }
         } while (madeChanges);
 
-        for (int i = 0; i < matrix.length; i++) {
+        for (String[] line : matrix) {
             for (int j = 0; j < matrix.length; j++) {
-                System.out.print(Objects.equals(matrix[i][j], "0") ? "u" : matrix[i][j]);
+                System.out.print(Objects.equals(line[j], "0") ? "u" : line[j]);
             }
             System.out.println();
         }

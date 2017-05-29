@@ -10,14 +10,14 @@ import java.util.TreeMap;
 public class CountOfOcc {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        Map<Integer, Integer> occupancies = new TreeMap<>();
+        Map<Integer, Integer> occurrences = new TreeMap<>();
         int[] intArr = Arrays.stream(reader.readLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
 
         Arrays.stream(intArr).forEach(i -> {
-            occupancies.putIfAbsent(i, 0);
-            occupancies.put(i, occupancies.get(i)+1);
+            occurrences.putIfAbsent(i, 0);
+            occurrences.put(i, occurrences.get(i) + 1);
         });
 
-        occupancies.forEach((a,b) -> System.out.println(a + " -> " + b + " times"));
+        occurrences.forEach((a, b) -> System.out.println(a + " -> " + b + " times"));
     }
 }
