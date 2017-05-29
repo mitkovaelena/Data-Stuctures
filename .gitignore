@@ -1,0 +1,8 @@
+.vs
+obj
+bin
+out
+.idea
+*.iml
+.docx
+.pptx
