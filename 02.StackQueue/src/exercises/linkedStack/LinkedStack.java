@@ -38,29 +38,29 @@ public class LinkedStack<E> {
         Node oldTop = this.firstNode;
         this.firstNode = new Node(element);
         this.firstNode.setNext(oldTop);
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public E pop() {
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new IllegalArgumentException();
         }
         Node oldTop = this.firstNode;
 
-        if (this.size() == 1){
+        if (this.size() == 1) {
             this.firstNode = null;
         } else {
-           this.firstNode = oldTop.getNext();
+            this.firstNode = oldTop.getNext();
         }
 
-        this.size--;
+        this.setSize(this.size() - 1);
         return oldTop.getValue();
     }
 
     public E[] toArray() {
-        E[] newElementsArr = (E[]) new Object[this.size()*2];
+        E[] newElementsArr = (E[]) new Object[this.size() * 2];
         Node crnt = this.firstNode;
-        for (int a = 0; a < size(); a++) {
+        for (int a = 0; a < this.size(); a++) {
             newElementsArr[a] = crnt.getValue();
             crnt = crnt.getNext();
         }

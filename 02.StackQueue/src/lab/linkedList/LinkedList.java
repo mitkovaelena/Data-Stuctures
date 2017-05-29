@@ -42,35 +42,34 @@ public class LinkedList<E> implements Iterable<E> {
         this.head = new Node(item);
         this.head.setNext(oldHead);
 
-        if(this.size() == 0){
-            this.tail = head;
+        if (this.size() == 0) {
+            this.tail = this.head;
         }
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public void addLast(E item) {
         Node oldTail = this.tail;
         this.tail = new Node(item);
 
-        if(this.size() == 0){
-            this.head = tail;
+        if (this.size() == 0) {
+            this.head = this.tail;
         } else {
             oldTail.setNext(this.tail);
         }
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public E removeFirst() {
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new UnsupportedOperationException();
         }
 
         Node oldHead = this.head;
         this.head = this.head.getNext();
+        this.setSize(this.size() - 1);
 
-        size--;
-
-        if (this.size() == 0){
+        if (this.size() == 0) {
             this.tail = null;
         }
 
@@ -79,12 +78,12 @@ public class LinkedList<E> implements Iterable<E> {
 
     public E removeLast() {
 
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new UnsupportedOperationException();
         }
         Node oldTail = this.tail;
 
-        if (this.size() == 1){
+        if (this.size() == 1) {
             this.head = null;
             this.tail = null;
         } else {
@@ -93,14 +92,14 @@ public class LinkedList<E> implements Iterable<E> {
             this.tail = newTail;
         }
 
-        this.size--;
+        this.setSize(this.size() - 1);
         return oldTail.getValue();
     }
 
     private Node GetSecondToLastNode() {
         Node current = this.head;
 
-        while (current.getNext() != this.tail){
+        while (current.getNext() != this.tail) {
             current = current.getNext();
         }
 
@@ -112,20 +111,20 @@ public class LinkedList<E> implements Iterable<E> {
         return new ListIterator();
     }
 
-    private final class ListIterator implements Iterator<E>{
+    private final class ListIterator implements Iterator<E> {
         private Node current;
 
-        private ListIterator(){
+        private ListIterator() {
             this.current = head;
         }
 
         @Override
-        public boolean hasNext(){
+        public boolean hasNext() {
             return this.current == tail;
         }
 
         @Override
-        public E next(){
+        public E next() {
             E returnValue = this.current.getValue();
             this.current = this.current.getNext();
             return returnValue;

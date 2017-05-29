@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class SequenceNM {
 
@@ -29,13 +30,13 @@ public class SequenceNM {
         }
 
         public Node getPrev() {
-            return prev;
+            return this.prev;
         }
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayDeque<Node> queue = new ArrayDeque<Node>();
+        Deque<Node> queue = new ArrayDeque<Node>();
         String input[] = reader.readLine().split(" ");
 
         Integer startInt = Integer.parseInt(input[0]);

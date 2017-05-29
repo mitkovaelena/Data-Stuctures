@@ -19,25 +19,25 @@ public class LinkedQueue<E> {
         this.tail = new QueueNode(element);
         this.tail.setPrevNode(oldTail);
 
-        if(this.size() == 0){
+        if (this.size() == 0) {
             this.head = tail;
         } else {
             oldTail.setNextNode(this.tail);
         }
-        this.size++;
+        this.setSize(this.size() + 1);
     }
 
     public E dequeue() {
-        if (this.size() == 0){
+        if (this.size() == 0) {
             throw new IllegalArgumentException();
         }
 
         QueueNode oldHead = this.head;
         this.head = this.head.getNextNode();
 
-        size--;
+        this.setSize(this.size() - 1);
 
-        if (this.size() == 0){
+        if (this.size() == 0) {
             this.tail = null;
         } else {
             this.head.setPrevNode(null);
@@ -47,9 +47,9 @@ public class LinkedQueue<E> {
     }
 
     public E[] toArray() {
-        E[] newElementsArr = (E[]) new Object[this.size()*2];
+        E[] newElementsArr = (E[]) new Object[this.size() * 2];
         QueueNode crnt = this.head;
-        for (int a = 0; a < size(); a++) {
+        for (int a = 0; a < this.size(); a++) {
             newElementsArr[a] = crnt.getValue();
             crnt = crnt.getNextNode();
         }

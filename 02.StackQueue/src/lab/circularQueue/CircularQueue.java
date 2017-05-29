@@ -24,12 +24,13 @@ public class CircularQueue<E> {
     }
 
     public void enqueue(E element) {
-        if (size >= elements.length){
+        if (this.size() >= elements.length){
             grow();
         }
-        elements[endIndex] = element;
-        endIndex = (endIndex+1) % this.elements.length;
-        size++;
+        this.elements[this.endIndex] = element;
+        this.endIndex = (this.endIndex+1) % this.elements.length;
+        this.setSize(this.size() + 1);
+
     }
 
     public E dequeue() {
@@ -37,9 +38,9 @@ public class CircularQueue<E> {
             throw new IllegalArgumentException();
         }
 
-        E element = elements[startIndex];
-        startIndex = (startIndex+1) % this.elements.length;
-        size--;
+        E element = this.elements[startIndex];
+        this.startIndex = (this.startIndex+1) % this.elements.length;
+        this.setSize(this.size() - 1);
         return element;
     }
 
@@ -48,8 +49,8 @@ public class CircularQueue<E> {
 
         int sourceInd = this.startIndex;
         int destInd = 0;
-        for (int a = 0; a < size(); a++) {
-            elementsArray[destInd++] = elements[sourceInd];
+        for (int a = 0; a < this.size(); a++) {
+            elementsArray[destInd++] = this.elements[sourceInd];
             sourceInd = (sourceInd+1) % this.elements.length;
         }
 
@@ -61,13 +62,13 @@ public class CircularQueue<E> {
 
         int sourceInd = this.startIndex;
         int destInd = 0;
-        for (int a = 0; a < size(); a++) {
-            newElementsArr[destInd++] = elements[sourceInd];
+        for (int a = 0; a < this.size(); a++) {
+            newElementsArr[destInd++] = this.elements[sourceInd];
             sourceInd = (sourceInd+1) % this.elements.length;
         }
 
-        elements = newElementsArr;
-        startIndex = 0;
-        endIndex = this.size;
+        this.elements = newElementsArr;
+        this.startIndex = 0;
+        this.endIndex = this.size();
     }
 }
