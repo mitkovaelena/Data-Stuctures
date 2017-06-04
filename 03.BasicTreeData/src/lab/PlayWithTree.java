@@ -3,6 +3,7 @@ package lab;
 import lab.binaryTree.BinaryTree;
 import lab.tree.Tree;
 
+
 public class PlayWithTree {
 
     public static void main(String[] args) {
@@ -17,20 +18,20 @@ public class PlayWithTree {
                                 new Tree<>(23),
                                 new Tree<>(6)));
 
-        System.out.println("lab.tree.Tree (indented):");
+        System.out.println("Tree (indented):");
         String output = tree.print(0, new StringBuilder());
         System.out.println(output);
 
-        System.out.println("lab.tree.Tree (DFS):");
+        System.out.println("Tree (DFS):");
         Iterable<Integer> returnedList = tree.orderDFS();
-        for(Integer i : returnedList) {
+        for (Integer i : returnedList) {
             System.out.print(i + " ");
         }
         System.out.println();
 
-        System.out.println("lab.tree.Tree (BFS):");
+        System.out.println("Tree (BFS):");
         Iterable<Integer> returnedList2 = tree.orderBFS();
-        for(Integer i : returnedList2) {
+        for (Integer i : returnedList2) {
             System.out.print(i + " ");
         }
         System.out.println();

@@ -32,41 +32,41 @@ public class BinaryTree<T> {
 
     // append output to builder
     public String printIndentedPreOrder(int indent, StringBuilder builder) {
-        if(this != null){
-            builder.append(new String(new char[indent*2]).replace("\0", " ")).append(this.value + "\n");
-            if(this.left != null)
-                this.left.printIndentedPreOrder(indent+1, builder);
-            if(this.right != null)
-                this.right.printIndentedPreOrder(indent +1, builder);
+        if (this != null) {
+            builder.append(new String(new char[indent * 2]).replace("\0", " ")).append(this.value + "\n");
+            if (this.left != null)
+                this.left.printIndentedPreOrder(indent + 1, builder);
+            if (this.right != null)
+                this.right.printIndentedPreOrder(indent + 1, builder);
         }
         return builder.toString();
     }
 
     public void eachPreOrder(Consumer<T> consumer) {
-        if(this != null){
+        if (this != null) {
             consumer.accept(this.getValue());
-            if(this.left != null)
+            if (this.left != null)
                 this.left.eachPreOrder(consumer);
-            if(this.right != null)
+            if (this.right != null)
                 this.right.eachPreOrder(consumer);
         }
     }
 
     public void eachInOrder(Consumer<T> consumer) {
-        if(this != null){
-            if(this.left != null)
-               this.left.eachInOrder(consumer);
+        if (this != null) {
+            if (this.left != null)
+                this.left.eachInOrder(consumer);
             consumer.accept(this.getValue());
-            if(this.right != null)
+            if (this.right != null)
                 this.right.eachInOrder(consumer);
         }
     }
 
     public void eachPostOrder(Consumer<T> consumer) {
-        if(this != null){
-            if(this.left != null)
+        if (this != null) {
+            if (this.left != null)
                 this.left.eachPostOrder(consumer);
-            if(this.right != null)
+            if (this.right != null)
                 this.right.eachPostOrder(consumer);
             consumer.accept(this.getValue());
         }

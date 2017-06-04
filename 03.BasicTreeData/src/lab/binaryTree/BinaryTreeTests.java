@@ -29,7 +29,7 @@ public class BinaryTreeTests {
         }
 
         // Assert
-        String[] expectedNodes = new String[] { "3", "+", "2", "*", "9", "-", "6" };
+        String[] expectedNodes = new String[]{"3", "+", "2", "*", "9", "-", "6"};
         Assert.assertArrayEquals(expectedNodes, actualResult);
     }
 
@@ -54,7 +54,7 @@ public class BinaryTreeTests {
         }
 
         // Assert
-        String[] expectedNodes = new String[] { "3", "2", "+", "9", "6", "-", "*" };
+        String[] expectedNodes = new String[]{"3", "2", "+", "9", "6", "-", "*"};
         Assert.assertArrayEquals(expectedNodes, actualResult);
     }
 

@@ -30,7 +30,7 @@ public class TreeTests {
         }
 
         // Assert
-        int[] expectedNodes = new int[] { 7, 19, 1, 12, 31, 21, 14, 23, 6 };
+        int[] expectedNodes = new int[]{7, 19, 1, 12, 31, 21, 14, 23, 6};
         Assert.assertArrayEquals(expectedNodes, result);
     }
 
@@ -71,7 +71,7 @@ public class TreeTests {
         }
 
         // Assert
-        int[] expectedOutput = new int[] { 7 };
+        int[] expectedOutput = new int[]{7};
         Assert.assertArrayEquals(expectedOutput, actualResult);
     }
 
@@ -99,7 +99,7 @@ public class TreeTests {
         }
 
         // Assert
-        int[] expectedOutput = new int[] { 1, 12, 31, 19, 21, 23, 6, 14, 7 };
+        int[] expectedOutput = new int[]{1, 12, 31, 19, 21, 23, 6, 14, 7};
         Assert.assertArrayEquals(expectedOutput, actualResult);
     }
 
@@ -119,7 +119,7 @@ public class TreeTests {
         }
 
         // Assert
-        int[] expectedOutput = new int[] { 7 };
+        int[] expectedOutput = new int[]{7};
         Assert.assertArrayEquals(expectedOutput, actualResult);
     }
 
@@ -147,7 +147,7 @@ public class TreeTests {
         }
 
         // Assert
-        int[] expectedOutput = new int[] { 7, 19, 21, 14, 1, 12, 31, 23, 6 };
+        int[] expectedOutput = new int[]{7, 19, 21, 14, 1, 12, 31, 23, 6};
         Assert.assertArrayEquals(expectedOutput, actualResult);
     }
 }
