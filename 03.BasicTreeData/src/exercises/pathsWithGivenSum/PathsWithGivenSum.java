@@ -12,7 +12,7 @@ public class PathsWithGivenSum {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(reader.readLine());
         Map<Integer, Tree<Integer>> treeMap = new HashMap<>();
-        List<Integer> leafNodes = new ArrayList<>();
+        Tree<Integer> tree = new Tree<Integer>(0);
 
         for (int i = 0; i < n - 1; i++) {
             int[] intArr = Arrays.stream(reader.readLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
@@ -22,9 +22,11 @@ public class PathsWithGivenSum {
         }
 
         int sum = Integer.parseInt(reader.readLine());
-        for (Tree<Integer> tree : treeMap.values()) {
-            if (tree.getChildren().isEmpty()) {
-                leafNodes.add(tree.getValue());
+
+        for (Tree<Integer> t : treeMap.values()) {
+            if (t.getParent() == null) {
+                tree = t;
+                break;
             }
         }
 
