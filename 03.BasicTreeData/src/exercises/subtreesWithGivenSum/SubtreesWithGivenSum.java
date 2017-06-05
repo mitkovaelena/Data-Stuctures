@@ -1,4 +1,4 @@
-package exercises.pathsWithGivenSum;
+package exercises.subtreesWithGivenSum;
 
 import lab.tree.Tree;
 
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class PathsWithGivenSum {
+public class SubtreesWithGivenSum {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(reader.readLine());
@@ -29,29 +29,37 @@ public class PathsWithGivenSum {
             }
         }
 
-        System.out.println("Paths of sum " + sum + ": ");
+        System.out.println("Subtrees of sum " + sum + ": ");
 
-        List<Integer> nodePathsEqualsToSum = new ArrayList<>();
-        calculatePath(tree, sum, 0, nodePathsEqualsToSum);
+        List<Integer> subtreesEqualToSum = new ArrayList<>();
+        calculateSubtreeSum(tree, sum, 0, subtreesEqualToSum);
 
-        for(Integer node : nodePathsEqualsToSum) {
+        for (Integer node : subtreesEqualToSum) {
             StringBuilder output = new StringBuilder();
-            tree = treeMap.get(node);
-            while (tree != null) {
-                output.insert(0, tree.getValue() + " ");
-                tree = tree.getParent();
-            }
-            System.out.println(output);
+            System.out.println(printPreOrder(treeMap.get(node), output));
         }
     }
 
-    private static void calculatePath(Tree<Integer> parentNode, int sum, int currentPath, List<Integer> pathSum) {
-        currentPath += parentNode.getValue();
-        if (parentNode.getChildren().isEmpty() && currentPath == sum){
-            pathSum.add(parentNode.getValue());
+    public static String printPreOrder(Tree<Integer> parentNode, StringBuilder builder) {
+        if (parentNode != null) {
+            builder.append(parentNode.getValue() + " ");
+            for (Tree<Integer> child : parentNode.getChildren()) {
+                printPreOrder(child, builder);
+            }
         }
+        return builder.toString();
+    }
+
+    private static int calculateSubtreeSum(Tree<Integer> parentNode, int sum, int currentSum, List<Integer> roots) {
+        currentSum = parentNode.getValue();
+
         for (Tree<Integer> child : parentNode.getChildren()) {
-            calculatePath(child, sum, currentPath, pathSum);
+            currentSum += calculateSubtreeSum(child, sum, currentSum, roots);
         }
+
+        if (currentSum == sum) {
+            roots.add(parentNode.getValue());
+        }
+        return currentSum;
     }
 }

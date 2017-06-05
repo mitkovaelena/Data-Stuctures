@@ -12,7 +12,6 @@ public class DeepestNode {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Map<Integer, Tree<Integer>> treeMap = new HashMap<>();
         int n = Integer.parseInt(reader.readLine());
-
         Tree<Integer> tree = new Tree<Integer>(0);
 
         for (int i = 0; i < n - 1; i++) {
