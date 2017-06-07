@@ -220,7 +220,7 @@ public class BinarySearchTreeTests {
         Iterable<Integer> range = bst.range(12, 12);
 
         int index = 0;
-        Integer[] values = new Integer[] { 12 };
+        Integer[] values = new Integer[]{12};
         for (Integer value : range) {
             Assert.assertEquals(values[index], value);
         }
@@ -579,18 +579,17 @@ public class BinarySearchTreeTests {
     public void testRank_rootRank() {
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
 
-        bst.insert(12);
+        bst.insert(16);
         bst.insert(21);
         bst.insert(5);
         bst.insert(8);
-        bst.insert(0);
-        bst.insert(-1);
         bst.insert(1);
         bst.insert(18);
+        bst.insert(17);
         bst.insert(23);
 
-        int rank = bst.rank(12);
-        Assert.assertEquals(5, rank);
+        int rank = bst.rank(21);
+        Assert.assertEquals(6, rank);
     }
 
     @Test
@@ -693,7 +692,22 @@ public class BinarySearchTreeTests {
         BinarySearchTree<Integer>.Node root = bst.getRoot();
         Assert.assertEquals(Integer.valueOf(16), root.getValue());
 
-        //   Assert.assertEquals(3, bst.rank(16));
-        //   Assert.assertEquals(6, bst.rank(21));
+        Assert.assertEquals(3, bst.rank(16));
+        Assert.assertEquals(6, bst.rank(21));
+    }
+
+    @Test
+    public void test() {
+        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+
+        bst.insert(12);
+        bst.insert(21);
+        bst.insert(5);
+        bst.insert(1);
+        bst.insert(8);
+        bst.insert(18);
+
+        Integer ceil = bst.ceil(22);
+        Assert.assertEquals(null, ceil);
     }
 }

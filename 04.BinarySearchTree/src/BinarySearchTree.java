@@ -34,8 +34,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
             if (current.getValue() == value) {
                 this.count--;
                 return;
-            }
-            else if (current.getValue().compareTo(value) > 0) {
+            } else if (current.getValue().compareTo(value) > 0) {
                 parent.childrenCount++;
                 current = current.getLeft();
 
@@ -159,45 +158,117 @@ public class BinarySearchTree<T extends Comparable<T>> {
         this.count--;
     }
 
-    public T ceil(T i) {
-        return i;
+    public T ceil(T item) {
+        Node parent = null;
+        Node current = this.root;
+        while (current != null) {
+            if (current.getValue().compareTo(item) > 0) {
+                parent = current;
+                current = current.getLeft();
+            } else if (current.getValue().compareTo(item) < 0) {
+                if (parent != null && current.getRight() != null && current.getRight().getValue().compareTo(item) < 0) {
+                    return parent.getValue();
+                }
+                parent = current;
+                current = current.getRight();
+            } else return current.getValue();
+        }
+        if (parent != null && parent.getValue().compareTo(item) >= 0) {
+            return parent.getValue();
+        }
+        return null;
     }
 
     public T floor(T item) {
-        if (this.root == null) {
-            throw new IllegalArgumentException();
-        }
-        Node parrent = null;
+        Node parent = null;
         Node current = this.root;
-//        while (current.getLeft() != null && current.getRight() != null) {
-//            if(current.getValue().compareTo(item) > 0) {
-//                parrent = current;
-//                current = current.getLeft();
-//            }
-//            else  if(current.getValue().compareTo(item) < 0) {
-//                parrent = current;
-//                current = current.getRight();
-//            }
-//            else return current.getValue();
-//        }
-        return parrent.getLeft().getValue();
+        while (current != null) {
+            if (current.getValue().compareTo(item) > 0) {
+                if (parent != null && parent.getValue().compareTo(item) < 0) {
+                    return parent.getValue();
+                }
+                parent = current;
+                current = current.getLeft();
+            } else if (current.getValue().compareTo(item) < 0) {
+                parent = current;
+                current = current.getRight();
+            } else return current.getValue();
+        }
+        if (parent != null && parent.getValue().compareTo(item) <= 0) {
+            return parent.getValue();
+        }
+        return null;
     }
 
-    public void delete(T i) {
+    public void delete(T item) {
+        if (this.getRoot() == null) {
+            return;
+        }
+        Node parent = null;
+        Node forDeleting = this.root;
+        while (forDeleting != null) {
+            forDeleting.childrenCount--;
+            if (forDeleting.getValue() == item) break;
+            else if (forDeleting.getValue().compareTo(item) > 0) {
+                parent = forDeleting;
+                forDeleting = forDeleting.getLeft();
+            } else if (forDeleting.getValue().compareTo(item) < 0) {
+                parent = forDeleting;
+                forDeleting = forDeleting.getRight();
+            }
+        }
+        if (forDeleting == null) {
+            return;
+        }
+
+        if (forDeleting.getLeft() == null && forDeleting.getRight() == null) {
+            changeParent(parent, forDeleting, null);
+            if (parent == null) this.root.setValue(null);
+            return;
+        }
+        if (forDeleting.getRight() == null) {
+            forDeleting.getLeft().childrenCount = forDeleting.childrenCount - 1;
+            changeParent(parent, forDeleting, forDeleting.getLeft());
+            return;
+        }
+        if (forDeleting.getRight().getLeft() == null) {
+            forDeleting.getRight().childrenCount = forDeleting.childrenCount - 1;
+            forDeleting.getRight().setLeft(forDeleting.getLeft());
+            changeParent(parent, forDeleting, forDeleting.getRight());
+            return;
+        }
+        Node prev = forDeleting.getRight();
+        Node crnt = prev.getLeft();
+        while (crnt.getLeft() != null) {
+            crnt.childrenCount--;
+            prev = crnt;
+            crnt = crnt.getLeft();
+        }
+        prev.setLeft(null);
+        crnt.childrenCount = forDeleting.childrenCount - 1;
+        crnt.setLeft(forDeleting.getLeft());
+        crnt.setRight(forDeleting.getRight());
+        changeParent(parent, forDeleting, crnt);
+    }
+
+    private void changeParent(Node parent, Node forDeleting, Node newParent) {
+        if (parent == null) this.root = newParent;
+        else if (parent.getLeft() == forDeleting) parent.setLeft(newParent);
+        else if (parent.getRight() == forDeleting) parent.setRight(newParent);
     }
 
     public int rank(T item) {
         return rank(this.root, item);
     }
 
-    private int rank (Node node, T item){
+    private int rank(Node node, T item) {
         if (node == null) {
             return 0;
         }
 
-        if(node.getValue().compareTo(item) > 0){
+        if (node.getValue().compareTo(item) > 0) {
             return this.rank(node.getLeft(), item);
-        } else if(node.getValue().compareTo(item) < 0){
+        } else if (node.getValue().compareTo(item) < 0) {
             return 1 + this.getChildrenCount(node.getLeft()) + this.rank(node.getRight(), item);
         }
         return this.getChildrenCount(node.getLeft());
@@ -222,7 +293,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
             } else if (this.rank(node.getValue()) < rank) {
                 node = node.getRight();
             } else {
-               break;
+                break;
             }
         }
         return node.getValue();
