@@ -3,7 +3,7 @@ package lab.binaryHeap;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryHeap<T extends Comparable<T>> {
+public class BinaryHeap<T extends Comparable<T>> {  //max-Heap
 
     private List<T> heap;
     private int size;

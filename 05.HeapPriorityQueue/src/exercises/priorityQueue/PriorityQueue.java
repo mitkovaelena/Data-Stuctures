@@ -42,9 +42,12 @@ public class PriorityQueue<T extends Comparable<T>> {
         return item;
     }
 
-    public void decreaseKey(T item) {
-        this.heapifyDown(this.heap.indexOf(item));
+    public void decreaseKey(T item) {  //higher priority => moving forward
         this.heapifyUp(this.heap.indexOf(item));
+    }
+
+    public void increaseKey(T item) {  //lower priority => moving backward
+        this.heapifyDown(this.heap.indexOf(item));
     }
 
     private void heapifyUp(int index) {
