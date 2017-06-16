@@ -70,6 +70,7 @@ public class RedBlackTree<T extends Comparable<T>> {
         node.childrenCount = 1 + this.count(node.getLeft()) + this.count(node.getRight());
         return node;
     }
+
     private Node rotateLeft(Node node){
         Node temp = node.getRight();
         node.setRight(temp.getLeft());
@@ -82,6 +83,7 @@ public class RedBlackTree<T extends Comparable<T>> {
 
         return temp;
     }
+
     private Node rotateRight(Node node){
         Node temp = node.getLeft();
         node.setLeft(temp.getRight());
@@ -93,8 +95,8 @@ public class RedBlackTree<T extends Comparable<T>> {
         node.childrenCount = 1 + this.count(node.getLeft()) + this.count(node.getRight());
 
         return temp;
-
     }
+
     private void flipColors(Node node){
         node.setColor(RED);
         if (node.getLeft() != null){
