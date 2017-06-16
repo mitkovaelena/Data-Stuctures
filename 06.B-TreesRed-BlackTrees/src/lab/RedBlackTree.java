@@ -23,9 +23,9 @@ public class RedBlackTree<T extends Comparable<T>> {
             return;
         }
 
-        this.insert(node.value);
-        this.preOrderCopy(node.left);
-        this.preOrderCopy(node.right);
+        this.insert(node.getValue());
+        this.preOrderCopy(node.getLeft());
+        this.preOrderCopy(node.getRight());
     }
 
     private boolean isRed(Node node) {
@@ -45,28 +45,29 @@ public class RedBlackTree<T extends Comparable<T>> {
         this.root = this.insert(value, this.root);
         this.root.setColor(BLACK);
     }
+
     private Node insert(T value, Node node){
         if(node == null){
             node = new Node(value);
         }
-        else if(value.compareTo(node.value)<0){
-            node.left = this.insert(value, node.left);
+        else if(value.compareTo(node.getValue())<0){
+            node.setLeft(this.insert(value, node.getLeft()));
         }
-        else if(value.compareTo(node.value)>0){
-            node.right = this.insert(value, node.right);
+        else if(value.compareTo(node.getValue())>0){
+            node.setRight(this.insert(value, node.getRight()));
         }
 
-        if(this.isRed(node.right) && !this.isRed(node.left)){
+        if(this.isRed(node.getRight()) && !this.isRed(node.getLeft())){
             node = this.rotateLeft(node);
         }
-        if(this.isRed(node.left) && this.isRed(node.left.left)){
+        if(this.isRed(node.getLeft()) && this.isRed(node.getLeft().getLeft())){
             node = this.rotateRight(node);
         }
-        if(this.isRed(node.left) && this.isRed(node.right)){
+        if(this.isRed(node.getLeft()) && this.isRed(node.getRight())){
             this.flipColors(node);
         }
 
-        node.childrenCount = 1 + this.count(node.left) + this.count(node.right);
+        node.childrenCount = 1 + this.count(node.getLeft()) + this.count(node.getRight());
         return node;
     }
     private Node rotateLeft(Node node){
@@ -77,7 +78,7 @@ public class RedBlackTree<T extends Comparable<T>> {
         temp.setColor(node.getColor());
         node.setColor(RED);
 
-        node.childrenCount = 1 + this.count(node.left) + this.count(node.right);
+        node.childrenCount = 1 + this.count(node.getLeft()) + this.count(node.getRight());
 
         return temp;
     }
@@ -89,7 +90,7 @@ public class RedBlackTree<T extends Comparable<T>> {
         temp.setColor(node.getColor());
         node.setColor(RED);
 
-        node.childrenCount = 1 + this.count(node.left) + this.count(node.right);
+        node.childrenCount = 1 + this.count(node.getLeft()) + this.count(node.getRight());
 
         return temp;
 
@@ -111,10 +112,10 @@ public class RedBlackTree<T extends Comparable<T>> {
     public boolean contains(T value) {
         Node current = this.root;
         while (current != null) {
-            if (value.compareTo(current.value) < 0) {
-                current = current.left;
-            } else if (value.compareTo(current.value) > 0) {
-                current = current.right;
+            if (value.compareTo(current.getValue()) < 0) {
+                current = current.getLeft();
+            } else if (value.compareTo(current.getValue()) > 0) {
+                current = current.getRight();
             } else {
                 break;
             }
@@ -126,10 +127,10 @@ public class RedBlackTree<T extends Comparable<T>> {
     public RedBlackTree<T> search(T item) {
         Node current = this.root;
         while (current != null) {
-            if (item.compareTo(current.value) < 0) {
-                current = current.left;
-            } else if (item.compareTo(current.value) > 0) {
-                current = current.right;
+            if (item.compareTo(current.getValue()) < 0) {
+                current = current.getLeft();
+            } else if (item.compareTo(current.getValue()) > 0) {
+                current = current.getRight();
             } else {
                 break;
             }
@@ -147,9 +148,9 @@ public class RedBlackTree<T extends Comparable<T>> {
             return;
         }
 
-        this.eachInOrder(node.left, consumer);
-        consumer.accept(node.value);
-        this.eachInOrder(node.right, consumer);
+        this.eachInOrder(node.getLeft(), consumer);
+        consumer.accept(node.getValue());
+        this.eachInOrder(node.getRight(), consumer);
     }
 
     public Iterable<T> range(T from, T to) {
@@ -163,24 +164,24 @@ public class RedBlackTree<T extends Comparable<T>> {
             return;
         }
 
-        int compareStart = startRange.compareTo(node.value);
-        int compareEnd = endRange.compareTo(node.value);
+        int compareStart = startRange.compareTo(node.getValue());
+        int compareEnd = endRange.compareTo(node.getValue());
         if (compareStart < 0) {
-            this.range(node.left, queue, startRange, endRange);
+            this.range(node.getLeft(), queue, startRange, endRange);
         }
         if (compareStart <= 0 && compareEnd >= 0) {
-            queue.addLast(node.value);
+            queue.addLast(node.getValue());
         }
         if (compareEnd > 0) {
-            this.range(node.right, queue, startRange, endRange);
+            this.range(node.getRight(), queue, startRange, endRange);
         }
     }
 
     private T minValue(Node root) {
-        T minv = root.value;
-        while (root.left != null) {
-            minv = root.left.value;
-            root = root.left;
+        T minv = root.getValue();
+        while (root.getLeft() != null) {
+            minv = root.getLeft().getValue();
+            root = root.getLeft();
         }
 
         return minv;
@@ -194,16 +195,16 @@ public class RedBlackTree<T extends Comparable<T>> {
         Node min = this.root;
         Node parent = null;
 
-        while (min.left != null) {
+        while (min.getLeft() != null) {
             parent = min;
             parent.childrenCount--;
-            min = min.left;
+            min = min.getLeft();
         }
 
         if (parent == null) {
-            this.root = this.root.right;
+            this.root = this.root.getRight();
         } else {
-            parent.left = min.right;
+            parent.setLeft(min.getRight());
         }
 
         this.nodesCount--;
@@ -217,15 +218,15 @@ public class RedBlackTree<T extends Comparable<T>> {
         Node max = this.root;
         Node parent = null;
 
-        while (max.right != null) {
+        while (max.getRight() != null) {
             parent = max;
-            max = max.right;
+            max = max.getRight();
         }
 
         if (parent == null) {
-            this.root = this.root.left;
+            this.root = this.root.getLeft();
         } else {
-            parent.right = max.left;
+            parent.setRight(max.getLeft());
         }
     }
 
@@ -246,21 +247,21 @@ public class RedBlackTree<T extends Comparable<T>> {
             return root;
         }
 
-        if (key.compareTo(root.value) < 0) {
-            root.left = deleteRecursive(root.left, key);
+        if (key.compareTo(root.getValue()) < 0) {
+            root.setLeft(deleteRecursive(root.getLeft(), key));
         }
-        else if (key.compareTo(root.value) > 0) {
-            root.right = deleteRecursive(root.right, key);
+        else if (key.compareTo(root.getValue()) > 0) {
+            root.setRight(deleteRecursive(root.getRight(), key));
         } else {
-            if (root.left == null) {
-                return root.right;
-            } else if (root.right == null) {
-                return root.left;
+            if (root.getLeft() == null) {
+                return root.getRight();
+            } else if (root.getRight() == null) {
+                return root.getLeft();
             }
 
-            root.value = minValue(root.right);
+            root.setValue(minValue(root.getRight()));
 
-            root.right = deleteRecursive(root.right, root.value);
+            root.setRight(deleteRecursive(root.getRight(), root.getValue()));
         }
 
         return root;
@@ -275,17 +276,17 @@ public class RedBlackTree<T extends Comparable<T>> {
             return 0;
         }
 
-        int compare = element.compareTo(node.value);
+        int compare = element.compareTo(node.getValue());
 
         if (compare < 0) {
-            return this.rank(element, node.left);
+            return this.rank(element, node.getLeft());
         }
 
         if (compare > 0) {
-            return 1 + this.size(node.left) + this.rank(element, node.right);
+            return 1 + this.size(node.getLeft()) + this.rank(element, node.getRight());
         }
 
-        return this.size(node.left);
+        return this.size(node.getLeft());
     }
 
     public T select(int rank) {
@@ -294,7 +295,7 @@ public class RedBlackTree<T extends Comparable<T>> {
             throw new IllegalArgumentException("ERROR");
         }
 
-        return node.value;
+        return node.getValue();
     }
 
     private Node select(int rank, Node node) {
@@ -302,15 +303,15 @@ public class RedBlackTree<T extends Comparable<T>> {
             return null;
         }
 
-        int leftCount = this.size(node.left);
+        int leftCount = this.size(node.getLeft());
         if (leftCount == rank) {
             return node;
         }
 
         if (leftCount > rank) {
-            return this.select(rank, node.left);
+            return this.select(rank, node.getLeft());
         } else {
-            return this.select(rank - (leftCount + 1), node.right);
+            return this.select(rank - (leftCount + 1), node.getRight());
         }
     }
 
@@ -384,16 +385,16 @@ public class RedBlackTree<T extends Comparable<T>> {
 //            return null;
 //        }
 //
-//        if (node.value == input) {
-//            return node.value;
+//        if (node.getValue() == input) {
+//            return node.getValue();
 //        }
 //
-//        if (node.value.compareTo(input) < 0) {
-//            return ceil(node.right, input);
+//        if (node.getValue().compareTo(input) < 0) {
+//            return ceil(node.getRight(), input);
 //        }
 //
-//        T ceil = ceil(node.left, input);
-//        return (ceil != null) ? ceil : node.value;
+//        T ceil = ceil(node.getLeft(), input);
+//        return (ceil != null) ? ceil : node.getValue();
 //    }
 //
 //    public T floor(T element) {
@@ -405,16 +406,16 @@ public class RedBlackTree<T extends Comparable<T>> {
 //            return null;
 //        }
 //
-//        if (node.value == input) {
-//            return node.value;
+//        if (node.getValue() == input) {
+//            return node.getValue();
 //        }
 //
-//        if (node.value.compareTo(input) > 0) {
-//            return floor(node.left, input);
+//        if (node.getValue().compareTo(input) > 0) {
+//            return floor(node.getLeft(), input);
 //        }
 //
-//        T floor = floor(node.right, input);
-//        return (floor != null) ? floor : node.value;
+//        T floor = floor(node.getRight(), input);
+//        return (floor != null) ? floor : node.getValue();
 //    }
 
 
