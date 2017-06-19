@@ -1,3 +1,5 @@
+package lab;
+
 public class Node<T extends Comparable<T>> {
 
     public T value;              //fields left public, in order the tests to pass

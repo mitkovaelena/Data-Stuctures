@@ -217,6 +217,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
                 forDeleting = forDeleting.getRight();
             }
         }
+
         if (forDeleting == null) {
             return;
         }
