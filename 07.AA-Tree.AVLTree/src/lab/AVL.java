@@ -182,13 +182,9 @@ public class AVL<T extends Comparable<T>> {
 
         if (element.compareTo(node.getValue()) < 0) {
             node.setLeft(delete(node.getLeft(), element));
-        }
-
-        else if (element.compareTo(node.getValue()) > 0) {
+        } else if (element.compareTo(node.getValue()) > 0) {
             node.setRight(delete(node.getRight(), element));
-        }
-
-        else {
+        } else {
 
             // node with only one child or no child
             if ((node.getLeft() == null) || (node.getRight() == null)) {
@@ -224,8 +220,7 @@ public class AVL<T extends Comparable<T>> {
         return node;
     }
 
-    Node<T> minValueNode(Node<T> node)
-    {
+    Node<T> minValueNode(Node<T> node) {
         Node<T> current = node;
 
         /* loop down to find the leftmost leaf */

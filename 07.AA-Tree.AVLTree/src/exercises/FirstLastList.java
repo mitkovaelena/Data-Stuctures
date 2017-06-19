@@ -7,7 +7,7 @@ import java.util.TreeMap;
 
 public class FirstLastList<T extends Comparable<T>> implements IFirstLastList<T> {
     private List<T> elements = new ArrayList<T>();
-    private Map<T, ArrayList<T> > keyCount  = new TreeMap<T, ArrayList<T>>();
+    private Map<T, ArrayList<T>> keyCount = new TreeMap<>();
 
     @Override
     public void add(T element) {
@@ -24,7 +24,7 @@ public class FirstLastList<T extends Comparable<T>> implements IFirstLastList<T>
 
     @Override
     public Iterable<T> first(int count) {
-        if(this.getCount() < count){
+        if (this.getCount() < count) {
             throw new IllegalArgumentException();
         }
 
@@ -37,7 +37,7 @@ public class FirstLastList<T extends Comparable<T>> implements IFirstLastList<T>
 
     @Override
     public Iterable<T> last(int count) {
-        if(this.getCount() < count){
+        if (this.getCount() < count) {
             throw new IllegalArgumentException();
         }
 
@@ -50,22 +50,22 @@ public class FirstLastList<T extends Comparable<T>> implements IFirstLastList<T>
 
     @Override
     public Iterable<T> min(int count) {
-        if(this.getCount() < count){
+        if (this.getCount() < count) {
             throw new IllegalArgumentException();
         }
         ArrayList<T> output = new ArrayList<T>();
-        if(count == 0){
+        if (count == 0) {
             return output;
         }
 
 
-        for (T key : this.keyCount.keySet()){
+        for (T key : this.keyCount.keySet()) {
             int ind = 0;
             for (int i = 0; i < this.keyCount.get(key).size() && count > 0; i++) {
                 output.add(this.keyCount.get(key).get(i));
                 count--;
             }
-            if(count == 0) break;
+            if (count == 0) break;
         }
 
         return output;
@@ -73,35 +73,34 @@ public class FirstLastList<T extends Comparable<T>> implements IFirstLastList<T>
 
     @Override
     public Iterable<T> max(int count) {
-        if(this.getCount() < count){
+        if (this.getCount() < count) {
             throw new IllegalArgumentException();
         }
         ArrayList<T> output = new ArrayList<T>();
-        if(count == 0){
+        if (count == 0) {
             return output;
         }
 
-        for (T key : this.keyCount.keySet()){
-            for (int i = this.keyCount.get(key).size() -1 ; i >= 0; i--) {
+        for (T key : this.keyCount.keySet()) {
+            for (int i = this.keyCount.get(key).size() - 1; i >= 0; i--) {
                 output.add(0, this.keyCount.get(key).get(i));
             }
         }
 
-        output.subList(count,output.size()).clear();
+        output.subList(count, output.size()).clear();
         return output;
     }
 
     @Override
     public void clear() {
-        this.elements = new ArrayList<T>();
-        this.keyCount = new TreeMap<T, ArrayList<T>>();
+        this.elements = new ArrayList<>();
+        this.keyCount = new TreeMap<>();
     }
 
     @Override
     public int removeAll(T element) {
         if (this.keyCount.containsKey(element)) {
-            int temp = this.keyCount.get(element).size();
-            this.keyCount.remove(element);
+            int temp = this.keyCount.remove(element).size();
             int counter = temp;
             for (int i = 0; i < this.elements.size() && counter > 0; i++) {
                 if (this.elements.get(i).compareTo(element) == 0) {
