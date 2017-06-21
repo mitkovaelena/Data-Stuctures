@@ -3,7 +3,6 @@ package exercise;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Iterator;
 
 public class Main {
 
@@ -11,8 +10,9 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         TextEditor textEditor = new TextEditorImpl();
         String commandLine = reader.readLine();
+        StringBuilder output = new StringBuilder();
 
-        while (commandLine != "end") {
+        while (!commandLine.equals("end")) {
             try {
                 String[] params = commandLine.split(" ");
 
@@ -30,9 +30,8 @@ public class Main {
                         } else {
                             usersToPrint = textEditor.users(params[1]);
                         }
-                        Iterator iterator = usersToPrint.iterator();
-                        while (iterator.hasNext()){
-                            System.out.println(iterator.next());
+                        for (String user : usersToPrint){              //much faster than iterator !!
+                            output.append(user).append("\n");
                         }
                         break;
                 }
@@ -56,19 +55,20 @@ public class Main {
                         textEditor.clear(params[0]);
                         break;
                     case "print":
-                        System.out.println(textEditor.print(params[0]));
+                        output.append(textEditor.print(params[0])).append("\n");
                         break;
                     case "length":
-                        System.out.println(textEditor.length(params[0]));
+                        output.append(textEditor.length(params[0])).append("\n");
                         break;
                     case "undo":
                         textEditor.undo(params[0]);
                         break;
                 }
-                commandLine = reader.readLine();
             } catch (Exception e){
-                commandLine = reader.readLine();
+
             }
+            commandLine = reader.readLine();
         }
+        System.out.println(output);
     }
 }
