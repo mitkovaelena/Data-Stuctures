@@ -1,3 +1,8 @@
+package lab.tests;
+
+import lab.Person;
+import lab.PersonCollection;
+import lab.PersonCollectionImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

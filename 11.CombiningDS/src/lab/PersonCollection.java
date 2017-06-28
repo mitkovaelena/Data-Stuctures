@@ -1,3 +1,5 @@
+package lab;
+
 public interface PersonCollection {
 
     boolean addPerson(String email, String name, int age, String town);
