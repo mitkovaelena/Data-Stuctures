@@ -2,8 +2,8 @@ package exercises.AStar;
 
 import exercises.priorityQueue.PriorityQueue;
 
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -57,8 +57,7 @@ public class AStar {
 
         }
 
-        List<Node> path = new ArrayList<>();
-
+        List<Node> path = new LinkedList<>();
 
         while (nodeParent.get(goal) != null) {
             path.add(0, goal);

@@ -6,17 +6,15 @@ import java.io.InputStreamReader;
 
 public class Main {
     private static char[][] map =
-            {
-                    {'-', '-', '-', '-', '-', '-', '-', '-'},
-                    {'-', '-', '*', '-', '-', '-', '-', '-'},
-                    {'W', 'W', 'W', 'W', 'W', '-', '-', '-'},
-                    {'-', '-', '-', '-', 'W', 'W', '-', '-'},
-                    {'-', '-', '-', 'P', 'W', '-', '-', '-'},
-                    {'-', '-', '-', '-', '-', '-', '-', '-'}
-            };
+    {
+        { '-', '-', '-', '-', '-'},
+        { '-', '*', '-', '-', '-'},
+        { 'W', 'W', 'W', 'W', '-'},
+        { '-', '-', '-', 'P', '-'}
+    };
 
     public static void main(String[] args) throws IOException {
-        map = readMap();
+        //map = readMap();
 
         Node start = findGoal('P');
         Node goal = findGoal('*');
