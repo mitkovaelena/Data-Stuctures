@@ -31,7 +31,7 @@ public class DoublyLinkedList<E> implements Iterable<E> {
         }
 
         private void setPrev(Node prev) {
-            this.next = next;
+            this.prev = prev;
         }
     }
 
@@ -102,23 +102,13 @@ public class DoublyLinkedList<E> implements Iterable<E> {
             this.head = null;
             this.tail = null;
         } else {
-            Node newTail = this.GetSecondToLastNode();
+            Node newTail = this.tail.getPrev();
             newTail.setNext(null);
             this.tail = newTail;
         }
 
         this.setSize(this.size() - 1);
         return oldTail.getValue();
-    }
-
-    private Node GetSecondToLastNode() {
-        Node current = this.head;
-
-        while (current.getNext() != this.tail) {
-            current = current.getNext();
-        }
-
-        return current;
     }
 
     @Override
