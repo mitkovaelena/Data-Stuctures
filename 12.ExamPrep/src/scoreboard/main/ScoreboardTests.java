@@ -1,3 +1,5 @@
+package scoreboard.main;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +14,7 @@ public class ScoreboardTests {
     private void executeTest(String inputFileName, String outputFileName) throws IOException {
         CommandExecutor commandExecutor = new CommandExecutor();
 
-        Path inputPath = Paths.get("src\\Judge-Tests\\" + inputFileName);
+        Path inputPath = Paths.get("src\\tests\\" + inputFileName);
         List<String> inputCommands = Files.readAllLines(inputPath);
         StringBuilder output = new StringBuilder();
         for (String command : inputCommands) {
@@ -26,7 +28,7 @@ public class ScoreboardTests {
             }
         }
 
-        Path outputPath = Paths.get("src\\Judge-Tests\\" + outputFileName);
+        Path outputPath = Paths.get("src\\tests\\" + outputFileName);
         String expectedOutput = String.join(System.lineSeparator(), Files.readAllLines(outputPath));
         String actualOutput = output.toString().trim();
 

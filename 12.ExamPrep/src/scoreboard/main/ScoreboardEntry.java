@@ -1,3 +1,5 @@
+package scoreboard.main;
+
 public class ScoreboardEntry implements Comparable<ScoreboardEntry>
 {
     private int score;

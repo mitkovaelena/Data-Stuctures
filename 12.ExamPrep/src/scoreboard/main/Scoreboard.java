@@ -1,3 +1,5 @@
+package scoreboard.main;
+
 public class Scoreboard {
 
     public Scoreboard() {

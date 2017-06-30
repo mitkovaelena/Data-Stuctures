@@ -1,3 +1,5 @@
+package scoreboard.main;
+
 import java.util.Scanner;
 
 public class Main {
