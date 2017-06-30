@@ -38,7 +38,6 @@ RegisterUser u17 u123
 RegisterUser u18 u123
 RegisterUser u19 u123
 RegisterUser u20 u123
-
 AddScore u01 u123 g01 g123 500
 AddScore u01 u123 g03 g123 300
 AddScore u01 u123 g02 g123 1200

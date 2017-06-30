@@ -3,7 +3,7 @@ package exercises.priorityQueue;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PriorityQueue<T extends Comparable<T>> {
+public class PriorityQueue<T extends Comparable<T>> {         //minHeap
 
     private List<T> heap;
 

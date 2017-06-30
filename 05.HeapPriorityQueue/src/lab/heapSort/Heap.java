@@ -1,6 +1,6 @@
 package lab.heapSort;
 
-public class Heap {
+public class Heap {    //maxHeap
 
     public static <E extends Comparable<E>> void sort(E[] array) {
 
