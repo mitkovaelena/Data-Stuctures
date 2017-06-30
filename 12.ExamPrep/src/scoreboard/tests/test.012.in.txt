@@ -1,13 +1,8 @@
 RegisterGame tetris ttt
-
 DeleteGame InvalidGame somePassword
 DeleteGame tetris invalidPass
-
 DeleteGame tetris ttt
-
 RegisterGame tetris t123
-
 DeleteGame tetris ttt
 DeleteGame tetris t123
-
 End

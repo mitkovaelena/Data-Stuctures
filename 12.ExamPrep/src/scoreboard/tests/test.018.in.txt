@@ -18,7 +18,6 @@ RegisterGame g17 g123
 RegisterGame g18 g123
 RegisterGame g19 g123
 RegisterGame g20 g123
-
 RegisterUser u01 u123
 RegisterUser u02 u123
 RegisterUser u03 u123
@@ -39,7 +38,6 @@ RegisterUser u17 u123
 RegisterUser u18 u123
 RegisterUser u19 u123
 RegisterUser u20 u123
-
 AddScore u01 u123 g01 g123 500
 AddScore u01 u123 g03 g123 300
 AddScore u01 u123 g02 g123 1200
@@ -17131,5 +17129,4 @@ AddScore u17 u123 g04 g123 50402
 AddScore u18 u123 g07 g123 30302
 AddScore u19 u123 g08 g123 122002
 AddScore u20 u123 g09 g123 702
-
 End

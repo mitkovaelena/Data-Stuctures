@@ -22,21 +22,10 @@ AddScore maria m123 AngryBirds invalidGamePass 1000
 AddScore invalidUser m123 AngryBirds a123 1000
 AddScore maria m123 InvalidGame f123 1000
 ShowScoreboard AngryBirds
-
-
-
-
-
-
-
-
-
 AddScore peter p123 chess c123 200
 AddScore maria m123 chess c123 600
 AddScore maria m123 chess c123 200
 ShowScoreboard chess
-
-
 ShowScoreboard InvalidGame
 RegisterGame Chain c123
 RegisterGame Chaconne c123
@@ -51,8 +40,6 @@ DeleteGame AngryBirds a123
 ShowScoreboard AngryBirds
 ListGamesByPrefix An
 ShowScoreboard chess
-
-
 ShowScoreboard Chess
 RegisterGame AngryBirds a123
 ShowScoreboard AngryBirds

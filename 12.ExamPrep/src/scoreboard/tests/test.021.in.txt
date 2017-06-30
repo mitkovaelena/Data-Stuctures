@@ -2998,9 +2998,7 @@ RegisterGame g2997 g123
 RegisterGame g2998 g123
 RegisterGame g2999 g123
 RegisterGame g3000 g123
-
 RegisterUser u u
-
 AddScore u u g1 g123 500
 AddScore u u g2 g123 500
 AddScore u u g3 g123 500
@@ -3010,7 +3008,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3021,7 +3018,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3032,7 +3028,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3043,7 +3038,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3054,7 +3048,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3065,7 +3058,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3076,7 +3068,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3087,7 +3078,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3098,7 +3088,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3109,7 +3098,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3129,7 +3117,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3140,7 +3127,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3151,7 +3137,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3162,7 +3147,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3173,7 +3157,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3184,7 +3167,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3195,7 +3177,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3206,7 +3187,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3217,7 +3197,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3228,7 +3207,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3248,7 +3226,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3259,7 +3236,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3270,7 +3246,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3281,7 +3256,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3292,7 +3266,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3303,7 +3276,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3314,7 +3286,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3325,7 +3296,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3336,7 +3306,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3347,7 +3316,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3367,7 +3335,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3378,7 +3345,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3389,7 +3355,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3400,7 +3365,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3411,7 +3375,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3422,7 +3385,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3433,7 +3395,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3444,7 +3405,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3455,7 +3415,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3466,7 +3425,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3486,7 +3444,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3497,7 +3454,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3508,7 +3464,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3519,7 +3474,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3530,7 +3484,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3541,7 +3494,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3552,7 +3504,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3563,7 +3514,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3574,7 +3524,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3585,7 +3534,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3605,7 +3553,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3616,7 +3563,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3627,7 +3573,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3638,7 +3583,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3649,7 +3593,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3660,7 +3603,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3671,7 +3613,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3682,7 +3623,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3693,7 +3633,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3704,7 +3643,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3724,7 +3662,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3735,7 +3672,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3746,7 +3682,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3757,7 +3692,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3768,7 +3702,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3779,7 +3712,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3790,7 +3722,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3801,7 +3732,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3812,7 +3742,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3823,7 +3752,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3843,7 +3771,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3854,7 +3781,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3865,7 +3791,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3876,7 +3801,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -3887,7 +3811,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3898,7 +3821,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3909,7 +3831,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -3920,7 +3841,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -3931,7 +3851,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -3942,7 +3861,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -3962,7 +3880,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -3973,7 +3890,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -3984,7 +3900,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -3995,7 +3910,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4006,7 +3920,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4017,7 +3930,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4028,7 +3940,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4039,7 +3950,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4050,7 +3960,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4061,7 +3970,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4081,7 +3989,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4092,7 +3999,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4103,7 +4009,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4114,7 +4019,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4125,7 +4029,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4136,7 +4039,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4147,7 +4049,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4158,7 +4059,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4169,7 +4069,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4180,7 +4079,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4200,7 +4098,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4211,7 +4108,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4222,7 +4118,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4233,7 +4128,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4244,7 +4138,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4255,7 +4148,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4266,7 +4158,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4277,7 +4168,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4288,7 +4178,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4299,7 +4188,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4319,7 +4207,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4330,7 +4217,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4341,7 +4227,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4352,7 +4237,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4363,7 +4247,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4374,7 +4257,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4385,7 +4267,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4396,7 +4277,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4407,7 +4287,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4418,7 +4297,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4438,7 +4316,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4449,7 +4326,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4460,7 +4336,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4471,7 +4346,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4482,7 +4356,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4493,7 +4366,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4504,7 +4376,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4515,7 +4386,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4526,7 +4396,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4537,7 +4406,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4557,7 +4425,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4568,7 +4435,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4579,7 +4445,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4590,7 +4455,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4601,7 +4465,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4612,7 +4475,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4623,7 +4485,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4634,7 +4495,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4645,7 +4505,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4656,7 +4515,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4676,7 +4534,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -4687,7 +4544,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -4698,7 +4554,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -4709,7 +4564,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -4720,7 +4574,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4731,7 +4584,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4742,7 +4594,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -4753,7 +4604,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -4764,7 +4614,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -4775,7 +4624,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -4786,7 +4634,6 @@ AddScore u u g96 g123 500
 AddScore u u g97 g123 500
 AddScore u u g98 g123 500
 AddScore u u g99 g123 500
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -7787,7 +7634,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -10788,7 +10634,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -13789,7 +13634,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -16790,7 +16634,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -19791,7 +19634,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 RegisterGame g1 g123
 RegisterGame g2 g123
 RegisterGame g3 g123
@@ -22792,9 +22634,7 @@ RegisterGame g2997 g123
 RegisterGame g2998 g123
 RegisterGame g2999 g123
 RegisterGame g3000 g123
-
 RegisterUser u u
-
 AddScore u u g1 g123 500
 AddScore u u g2 g123 500
 AddScore u u g3 g123 500
@@ -22804,7 +22644,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -22815,7 +22654,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -22826,7 +22664,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -22837,7 +22674,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -22848,7 +22684,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -22859,7 +22694,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -22870,7 +22704,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -22881,7 +22714,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -22892,7 +22724,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -22903,7 +22734,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -22923,7 +22753,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -22934,7 +22763,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -22945,7 +22773,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -22956,7 +22783,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -22967,7 +22793,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -22978,7 +22803,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -22989,7 +22813,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23000,7 +22823,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23011,7 +22833,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23022,7 +22843,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23042,7 +22862,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23053,7 +22872,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23064,7 +22882,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23075,7 +22892,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23086,7 +22902,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23097,7 +22912,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23108,7 +22922,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23119,7 +22932,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23130,7 +22942,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23141,7 +22952,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23161,7 +22971,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23172,7 +22981,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23183,7 +22991,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23194,7 +23001,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23205,7 +23011,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23216,7 +23021,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23227,7 +23031,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23238,7 +23041,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23249,7 +23051,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23260,7 +23061,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23280,7 +23080,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23291,7 +23090,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23302,7 +23100,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23313,7 +23110,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23324,7 +23120,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23335,7 +23130,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23346,7 +23140,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23357,7 +23150,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23368,7 +23160,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23379,7 +23170,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23399,7 +23189,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23410,7 +23199,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23421,7 +23209,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23432,7 +23219,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23443,7 +23229,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23454,7 +23239,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23465,7 +23249,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23476,7 +23259,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23487,7 +23269,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23498,7 +23279,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23518,7 +23298,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23529,7 +23308,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23540,7 +23318,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23551,7 +23328,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23562,7 +23338,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23573,7 +23348,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23584,7 +23358,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23595,7 +23368,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23606,7 +23378,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23617,7 +23388,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23637,7 +23407,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23648,7 +23417,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23659,7 +23427,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23670,7 +23437,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23681,7 +23447,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23692,7 +23457,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23703,7 +23467,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23714,7 +23477,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23725,7 +23487,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23736,7 +23497,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23756,7 +23516,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23767,7 +23526,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23778,7 +23536,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23789,7 +23546,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23800,7 +23556,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23811,7 +23566,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23822,7 +23576,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23833,7 +23586,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23844,7 +23596,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23855,7 +23606,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23875,7 +23625,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -23886,7 +23635,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -23897,7 +23645,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -23908,7 +23655,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -23919,7 +23665,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23930,7 +23675,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23941,7 +23685,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -23952,7 +23695,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -23963,7 +23705,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -23974,7 +23715,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -23994,7 +23734,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -24005,7 +23744,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -24016,7 +23754,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -24027,7 +23764,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -24038,7 +23774,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24049,7 +23784,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24060,7 +23794,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24071,7 +23804,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24082,7 +23814,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -24093,7 +23824,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -24113,7 +23843,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -24124,7 +23853,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -24135,7 +23863,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -24146,7 +23873,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -24157,7 +23883,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24168,7 +23893,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24179,7 +23903,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24190,7 +23913,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24201,7 +23923,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -24212,7 +23933,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -24232,7 +23952,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -24243,7 +23962,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -24254,7 +23972,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -24265,7 +23982,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -24276,7 +23992,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24287,7 +24002,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24298,7 +24012,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24309,7 +24022,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24320,7 +24032,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -24331,7 +24042,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -24351,7 +24061,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -24362,7 +24071,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -24373,7 +24081,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -24384,7 +24091,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -24395,7 +24101,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24406,7 +24111,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24417,7 +24121,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24428,7 +24131,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24439,7 +24141,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -24450,7 +24151,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -24470,7 +24170,6 @@ AddScore u u g6 g123 500
 AddScore u u g7 g123 500
 AddScore u u g8 g123 500
 AddScore u u g9 g123 500
-
 AddScore u u g10 g123 500
 AddScore u u g11 g123 500
 AddScore u u g12 g123 500
@@ -24481,7 +24180,6 @@ AddScore u u g16 g123 500
 AddScore u u g17 g123 500
 AddScore u u g18 g123 500
 AddScore u u g19 g123 500
-
 AddScore u u g20 g123 500
 AddScore u u g21 g123 500
 AddScore u u g22 g123 500
@@ -24492,7 +24190,6 @@ AddScore u u g26 g123 500
 AddScore u u g27 g123 500
 AddScore u u g28 g123 500
 AddScore u u g29 g123 500
-
 AddScore u u g30 g123 500
 AddScore u u g31 g123 500
 AddScore u u g32 g123 500
@@ -24503,7 +24200,6 @@ AddScore u u g36 g123 500
 AddScore u u g37 g123 500
 AddScore u u g38 g123 500
 AddScore u u g39 g123 500
-
 AddScore u u g40 g123 500
 AddScore u u g41 g123 500
 AddScore u u g42 g123 500
@@ -24514,7 +24210,6 @@ AddScore u u g46 g123 500
 AddScore u u g47 g123 500
 AddScore u u g48 g123 500
 AddScore u u g49 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24525,7 +24220,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24536,7 +24230,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g50 g123 500
 AddScore u u g51 g123 500
 AddScore u u g52 g123 500
@@ -24547,7 +24240,6 @@ AddScore u u g56 g123 500
 AddScore u u g57 g123 500
 AddScore u u g58 g123 500
 AddScore u u g59 g123 500
-
 AddScore u u g60 g123 500
 AddScore u u g61 g123 500
 AddScore u u g62 g123 500
@@ -24558,7 +24250,6 @@ AddScore u u g66 g123 500
 AddScore u u g67 g123 500
 AddScore u u g68 g123 500
 AddScore u u g69 g123 500
-
 AddScore u u g80 g123 500
 AddScore u u g81 g123 500
 AddScore u u g82 g123 500
@@ -24569,7 +24260,6 @@ AddScore u u g86 g123 500
 AddScore u u g87 g123 500
 AddScore u u g88 g123 500
 AddScore u u g89 g123 500
-
 AddScore u u g90 g123 500
 AddScore u u g91 g123 500
 AddScore u u g92 g123 500
@@ -24580,7 +24270,6 @@ AddScore u u g96 g123 500
 AddScore u u g97 g123 500
 AddScore u u g98 g123 500
 AddScore u u g99 g123 500
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -27581,7 +27270,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -30582,7 +30270,6 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 DeleteGame g1 g123
 DeleteGame g2 g123
 DeleteGame g3 g123
@@ -33583,5 +33270,4 @@ DeleteGame g2997 g123
 DeleteGame g2998 g123
 DeleteGame g2999 g123
 DeleteGame g3000 g123
-
 End

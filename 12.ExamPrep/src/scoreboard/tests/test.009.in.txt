@@ -4,14 +4,12 @@ RegisterGame Artchess aaa
 RegisterGame Chain ccc
 RegisterGame Chaconne ccc
 RegisterGame chess ccc
-
 ListGamesByPrefix Ch
 ListGamesByPrefix a
 ListGamesByPrefix Cha
 ListGamesByPrefix An
 ListGamesByPrefix Chess
 ListGamesByPrefix chess
-
 RegisterGame ch1 ccc
 RegisterGame ch2 ccc
 RegisterGame ch3 ccc
@@ -28,11 +26,9 @@ RegisterGame cat5 ccc
 RegisterGame cat6 ccc
 RegisterGame cat7 ccc
 RegisterGame cat8 ccc
-
 ListGamesByPrefix c
 ListGamesByPrefix ch
 ListGamesByPrefix cat
 ListGamesByPrefix cat1
 ListGamesByPrefix category
-
 End

@@ -23,6 +23,8 @@ public class CommandExecutor {
                 return deleteGame(tokens[1], tokens[2]);
             case "ListGamesByPrefix":
                 return listGamesByPrefix(tokens[1]);
+            case "\n":
+                return "";
             default:
                 return "Incorrect command";
         }

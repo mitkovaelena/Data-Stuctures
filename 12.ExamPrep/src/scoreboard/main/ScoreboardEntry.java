@@ -2,8 +2,13 @@ package scoreboard.main;
 
 public class ScoreboardEntry implements Comparable<ScoreboardEntry>
 {
-    private int score;
+    private Integer score;
     private String userName;
+
+    public ScoreboardEntry(String userName, Integer score) {
+        this.score = score;
+        this.userName = userName;
+    }
 
     public int getScore() {
         return this.score;
@@ -21,8 +26,15 @@ public class ScoreboardEntry implements Comparable<ScoreboardEntry>
         this.userName = userName;
     }
 
-    public int compareTo(ScoreboardEntry other)
-    {
-        throw new UnsupportedOperationException();
+    public int compareTo(ScoreboardEntry other) {
+        int cmp = this.score.compareTo(other.getScore());
+        if(cmp != 0){
+            return cmp*(-1);
+        }
+        cmp =  this.userName.compareTo(other.getUserName());
+        if(cmp != 0){
+            return cmp;
+        }
+        return 1;
     }
 }
