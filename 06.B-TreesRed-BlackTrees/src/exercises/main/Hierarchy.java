@@ -11,7 +11,7 @@ public class Hierarchy<T> implements IHierarchy<T> {
         this.nodeParent.put(element, null);
     }
 
-    public void add(T parent, T child) {
+    public void Add(T parent, T child) {
         if (!this.nodeChildren.containsKey(parent) || this.nodeChildren.containsKey(child)) {
             throw new IllegalArgumentException();
         }
@@ -24,8 +24,8 @@ public class Hierarchy<T> implements IHierarchy<T> {
         return this.nodeChildren.size();
     }
 
-    public void remove(T element) {
-        if(!this.nodeParent.containsKey(element)){
+    public void Remove(T element) {
+        if (!this.nodeParent.containsKey(element)) {
             throw new IllegalArgumentException();
         }
         if (this.nodeParent.get(element) == null) {
@@ -35,33 +35,33 @@ public class Hierarchy<T> implements IHierarchy<T> {
         nodeChildren.get(parent).remove(element);
         ArrayList<T> children = nodeChildren.remove(element);
         nodeChildren.get(parent).addAll(children);
-        for(T child : children){
+        for (T child : children) {
             nodeParent.put(child, parent);
         }
     }
 
-    public boolean contains(T element) {
+    public boolean Contains(T element) {
         return this.nodeChildren.containsKey(element);
     }
 
-    public T getParent(T element) {
+    public T GetParent(T element) {
         if (!this.nodeChildren.containsKey(element)) {
             throw new IllegalArgumentException();
         }
         return this.nodeParent.get(element);
     }
 
-    public Iterable<T> getChildren(T element) {
+    public Iterable<T> GetChildren(T element) {
         if (!this.nodeChildren.containsKey(element)) {
             throw new IllegalArgumentException();
         }
         return this.nodeChildren.get(element);
     }
 
-    public Iterable<T> getCommonElements(IHierarchy<T> other) {
+    public Iterable<T> GetCommonElements(IHierarchy<T> other) {
         List<T> outputList = new ArrayList<T>();
         for (T elem : nodeChildren.keySet()) {
-            if (other.contains(elem)) {
+            if (other.Contains(elem)) {
                 outputList.add(elem);
             }
         }
