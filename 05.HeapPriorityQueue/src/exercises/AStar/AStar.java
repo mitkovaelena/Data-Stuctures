@@ -37,8 +37,9 @@ public class AStar {
 
             for (int i = -1; i <= 1; i++) {
                 for (int j = -1; j <= 1; j++) {
-                    if (Math.abs(i) == Math.abs(j)) continue;
-                    try {
+                     if (Math.abs(i) == Math.abs(j) || current.getRow() + i < 0 || current.getRow() + i >= map.length ||
+                             current.getCol() + j < 0 || current.getCol() + j >= map[0].length) continue;
+						
                         if (this.map[current.getRow() + i][current.getCol() + j] != 'W') {
                             Node node = new Node(current.getRow() + i, current.getCol() + j);
                             if (!nodeCost.containsKey(node) || nodeCost.get(node).compareTo(nodeCost.get(current) + 1) > 0) {
@@ -48,10 +49,6 @@ public class AStar {
                                 queue.enqueue(node);
                             }
                         }
-
-                    } catch (IndexOutOfBoundsException e) {
-                        continue;
-                    }
                 }
             }
 
